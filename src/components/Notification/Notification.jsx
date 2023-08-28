@@ -1,18 +1,11 @@
 import React from 'react';
 
-const Section = ({ title, children }) => {
+const Notification = ({ message }) => {
   return (
     <div>
-      <h2>{title}</h2>
-      {children}
+      <p>{message}</p>
     </div>
   );
-};
-
-export default Section;
-
-const Notification = ({ message }) => {
-  return <p>{message}</p>;
 };
 
 export default Notification;
