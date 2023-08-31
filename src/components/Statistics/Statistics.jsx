@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Statistics = ({ good, neutral, bad }) => {
   const total = good + neutral + bad;
   const average = (good - bad) / total || 0;

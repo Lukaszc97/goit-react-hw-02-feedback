@@ -24,6 +24,7 @@ export const App = () => {
     <div
       style={{
         height: '100vh',
+        textAlign: 'center',
         display: 'flex',
         flexDirection: 'column',
         justifyContent: 'center',
